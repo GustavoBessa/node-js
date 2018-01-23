@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= title %></title>
+</head>
+<body>
+	<h1>Meu nome é Gustavo Bessa</h1>
+	<h2><%= 'Sou programador desde 2013.' %></h2>
+	<h3 id="demo">i= </h3>
+	<ul id="ul">
+		<script type="text/javascript">
+			while(i = 0, i < 2, i++){
+				//document.getElementById('ul').innerHTML += "<li><%= array["+i+"] %></li>";
+				document.getElementById('demo').innerHTML += 'document.getElementById("ul").innerHTML += "<li><%= array['+i+'] %></li>";';
+			}
+		</script>
+	</ul>
+</body>
+</html>
