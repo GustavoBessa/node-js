@@ -1,2 +1,2 @@
 # node-js
-By: Gustavo Bessa (@Shadowlast14)
+By: Gustavo Bessa
